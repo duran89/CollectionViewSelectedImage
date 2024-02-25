@@ -10,10 +10,13 @@
 		AD8E957C2B8A73AD0038CFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E957B2B8A73AD0038CFE0 /* AppDelegate.swift */; };
 		AD8E957E2B8A73AD0038CFE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E957D2B8A73AD0038CFE0 /* SceneDelegate.swift */; };
 		AD8E95802B8A73AD0038CFE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E957F2B8A73AD0038CFE0 /* ViewController.swift */; };
-		AD8E95832B8A73AD0038CFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8E95812B8A73AD0038CFE0 /* Main.storyboard */; };
 		AD8E95862B8A73AD0038CFE0 /* CollectionViewSelectedImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD8E95842B8A73AD0038CFE0 /* CollectionViewSelectedImage.xcdatamodeld */; };
 		AD8E95882B8A73AF0038CFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8E95872B8A73AF0038CFE0 /* Assets.xcassets */; };
 		AD8E958B2B8A73AF0038CFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8E95892B8A73AF0038CFE0 /* LaunchScreen.storyboard */; };
+		AD8E95962B8A77F80038CFE0 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E95952B8A77F80038CFE0 /* FirstView.swift */; };
+		AD8E95982B8A781F0038CFE0 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E95972B8A781F0038CFE0 /* SecondView.swift */; };
+		AD8E959A2B8A7BB40038CFE0 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E95992B8A7BB40038CFE0 /* CustomCollectionViewCell.swift */; };
+		AD8E95A02B8A827B0038CFE0 /* BSImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = AD8E959F2B8A827B0038CFE0 /* BSImagePicker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +24,13 @@
 		AD8E957B2B8A73AD0038CFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD8E957D2B8A73AD0038CFE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD8E957F2B8A73AD0038CFE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD8E95822B8A73AD0038CFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD8E95852B8A73AD0038CFE0 /* CollectionViewSelectedImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionViewSelectedImage.xcdatamodel; sourceTree = "<group>"; };
 		AD8E95872B8A73AF0038CFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD8E958A2B8A73AF0038CFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8E958C2B8A73AF0038CFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8E95952B8A77F80038CFE0 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		AD8E95972B8A781F0038CFE0 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		AD8E95992B8A7BB40038CFE0 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8E95A02B8A827B0038CFE0 /* BSImagePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +64,42 @@
 		AD8E957A2B8A73AD0038CFE0 /* CollectionViewSelectedImage */ = {
 			isa = PBXGroup;
 			children = (
-				AD8E957B2B8A73AD0038CFE0 /* AppDelegate.swift */,
-				AD8E957D2B8A73AD0038CFE0 /* SceneDelegate.swift */,
-				AD8E957F2B8A73AD0038CFE0 /* ViewController.swift */,
-				AD8E95812B8A73AD0038CFE0 /* Main.storyboard */,
-				AD8E95872B8A73AF0038CFE0 /* Assets.xcassets */,
-				AD8E95892B8A73AF0038CFE0 /* LaunchScreen.storyboard */,
+				AD8E95942B8A77DD0038CFE0 /* Views */,
+				AD8E95932B8A77D10038CFE0 /* Constrollers */,
+				AD8E95922B8A73FA0038CFE0 /* Supporting */,
 				AD8E958C2B8A73AF0038CFE0 /* Info.plist */,
 				AD8E95842B8A73AD0038CFE0 /* CollectionViewSelectedImage.xcdatamodeld */,
 			);
 			path = CollectionViewSelectedImage;
+			sourceTree = "<group>";
+		};
+		AD8E95922B8A73FA0038CFE0 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				AD8E957B2B8A73AD0038CFE0 /* AppDelegate.swift */,
+				AD8E957D2B8A73AD0038CFE0 /* SceneDelegate.swift */,
+				AD8E95872B8A73AF0038CFE0 /* Assets.xcassets */,
+				AD8E95892B8A73AF0038CFE0 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		AD8E95932B8A77D10038CFE0 /* Constrollers */ = {
+			isa = PBXGroup;
+			children = (
+				AD8E957F2B8A73AD0038CFE0 /* ViewController.swift */,
+			);
+			path = Constrollers;
+			sourceTree = "<group>";
+		};
+		AD8E95942B8A77DD0038CFE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD8E95952B8A77F80038CFE0 /* FirstView.swift */,
+				AD8E95972B8A781F0038CFE0 /* SecondView.swift */,
+				AD8E95992B8A7BB40038CFE0 /* CustomCollectionViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +118,9 @@
 			dependencies = (
 			);
 			name = CollectionViewSelectedImage;
+			packageProductDependencies = (
+				AD8E959F2B8A827B0038CFE0 /* BSImagePicker */,
+			);
 			productName = CollectionViewSelectedImage;
 			productReference = AD8E95782B8A73AD0038CFE0 /* CollectionViewSelectedImage.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +149,9 @@
 				Base,
 			);
 			mainGroup = AD8E956F2B8A73AD0038CFE0;
+			packageReferences = (
+				AD8E959E2B8A827B0038CFE0 /* XCRemoteSwiftPackageReference "BSImagePicker" */,
+			);
 			productRefGroup = AD8E95792B8A73AD0038CFE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +168,6 @@
 			files = (
 				AD8E958B2B8A73AF0038CFE0 /* LaunchScreen.storyboard in Resources */,
 				AD8E95882B8A73AF0038CFE0 /* Assets.xcassets in Resources */,
-				AD8E95832B8A73AD0038CFE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8E95982B8A781F0038CFE0 /* SecondView.swift in Sources */,
+				AD8E959A2B8A7BB40038CFE0 /* CustomCollectionViewCell.swift in Sources */,
 				AD8E95802B8A73AD0038CFE0 /* ViewController.swift in Sources */,
+				AD8E95962B8A77F80038CFE0 /* FirstView.swift in Sources */,
 				AD8E957C2B8A73AD0038CFE0 /* AppDelegate.swift in Sources */,
 				AD8E957E2B8A73AD0038CFE0 /* SceneDelegate.swift in Sources */,
 				AD8E95862B8A73AD0038CFE0 /* CollectionViewSelectedImage.xcdatamodeld in Sources */,
@@ -151,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD8E95812B8A73AD0038CFE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD8E95822B8A73AD0038CFE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD8E95892B8A73AF0038CFE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,9 +333,9 @@
 				INFOPLIST_FILE = CollectionViewSelectedImage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,9 +361,9 @@
 				INFOPLIST_FILE = CollectionViewSelectedImage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD8E959E2B8A827B0038CFE0 /* XCRemoteSwiftPackageReference "BSImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mikaoj/BSImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD8E959F2B8A827B0038CFE0 /* BSImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD8E959E2B8A827B0038CFE0 /* XCRemoteSwiftPackageReference "BSImagePicker" */;
+			productName = BSImagePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AD8E95842B8A73AD0038CFE0 /* CollectionViewSelectedImage.xcdatamodeld */ = {
